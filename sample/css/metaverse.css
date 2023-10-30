@@ -1,0 +1,122 @@
+@import url('http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans:400italic,400');
+@import url('http://fast.fonts.com/cssapi/95b765fd-fae4-4f1b-8155-d8244914a5c6.css');
+
+
+body {
+    margin: 0;
+    padding:0;
+    background-image: url(../images/metaverse.png);
+    font-family: 'Open Sans', 'Frutiger', Arial, sans-serif;
+    background-attachment: fixed;
+}
+a {
+    font-weight: bold;
+    color: #dd3b2a;
+    text-decoration: none;
+}
+
+h1,h2 {
+    font-family: 'Adelle W01 Bold','Arvo', Georgia , serif ;
+}
+
+h2 {
+    color: #dd3b2a;
+    font-size: 2.5em;
+
+}
+
+.header {
+    height: 492px;
+    background-color: #ffffff00;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.header p {
+    width: 45%;
+    font-size: 1.3em;
+    font-weight: bold;
+    right: 100px;
+    position: absolute;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #ffffff;
+}
+
+.main {
+    background-color: rgb(255, 255, 255,0.7);
+    border-top: solid 5px #dd3b2a;
+    padding-bottom: 1em;
+    width: 100%;
+    overflow: hidden;
+}
+
+.definition {
+    width: 45%;
+    padding: 20px;
+    float: left;
+}
+
+.howitwork {
+    width: 45%;
+    padding: 20px;
+    float: right;
+
+}
+.supporting {
+    width: 100%;
+    background-color: #edf6ff;
+    border-top: 5px solid  #cce4fb ;
+    padding-bottom: 1em;
+    overflow: hidden;
+
+}
+.supporting .content {
+    background-image: url(../images/conference.png),url(../images/avatar.png);
+    background-repeat: no-repeat;
+    background-position: 750px 150px ,15px 700px;
+}
+
+.summary {
+    background-color:rgb(255, 255, 255,0.7);
+    border-top: solid 5px #cce4fb;
+    padding-bottom: 1em;
+    overflow: hidden;
+
+}
+.content{
+    width: 80%;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+}
+
+.whoplayer{
+    width: 45%;
+    padding: 20px;
+}
+
+.willhappen{
+    width: 45%;
+    padding: 20px;
+    float: right;
+}
+.whydothis{
+    padding: 20px;
+}
+
+.whydothis h2 {
+    text-align: center;
+}
+
+.whydothis p {
+    width: 45%;
+    float: left;
+}
+.whydothis p + p {
+    float: right;
+}
